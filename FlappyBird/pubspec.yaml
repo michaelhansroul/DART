@@ -1,0 +1,14 @@
+name: flappybird
+author: Hansroul Michael
+description: Game.
+dependencies:
+  browser: any
+  stagexl: any
+  #stagexl_bitmapfont: any
+  #stagexl_flump: any
+  #stagexl_richtextfield: any
+  #stagexl_spine: any
+transformers:
+- $dart2js:
+    commandLineOptions: ["--trust-type-annotations", "--trust-primitives", "--dump-info"]
+    minify: true

@@ -1,0 +1,15 @@
+name: GameV2
+version: 1.0.0
+description: GameV2
+author: Hansroul Michael
+dependencies:
+    browser: any
+    stagexl: any
+    #stagexl_bitmapfont: any
+    #stagexl_flump: any
+    #stagexl_richtextfield: any
+    #stagexl_spine: any
+transformers:
+- $dart2js:
+    commandLineOptions: ["--trust-type-annotations", "--trust-primitives", "--dump-info"]
+    minify: true
